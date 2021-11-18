@@ -30,9 +30,10 @@ const Header = ()=> {
     return(
 
        < Fragment>
+       <br/>
              <ul className = "nav nav-pills nav-fill bg-dark text-white">
-                    <li className = "nav-item">
-                        <Link className ="nav-link" to = "/">Welcome</Link>
+                    <li className = "nav-item ">
+                        <Link className ="nav-link"  to = "/">Welcome</Link>
 
                     </li>
                     <li className = "nav-item">
