@@ -1,5 +1,7 @@
 import react from "react";
 import ReactDOM from 'react-dom';
+import "bootstrap/dist/css/bootstrap.css";
+import DemoRouter from './DemoRouter';
 
 
 
@@ -9,13 +11,5 @@ import ReactDOM from 'react-dom';
 
 
 
-ReactDOM.render(<b>hello</b> , document.getElementById('root') );
 
-
-
-
-
-
-
-
-
+ReactDOM.render(<DemoRouter/> , document.getElementById('root') );
